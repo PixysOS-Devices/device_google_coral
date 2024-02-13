@@ -1180,4 +1180,7 @@ include hardware/google/pixel/citadel/citadel.mk
 # Pixel Logger
 include hardware/google/pixel/PixelLogger/PixelLogger.mk
 
+# Pixel Carrier Settings
+$(call inherit-product, vendor/google/CarrierSettings/CarrierSettings-vendor.mk)
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)

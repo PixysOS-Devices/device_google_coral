@@ -8,10 +8,6 @@ product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk;PRESIGNED
 
-# Adaptive connectivity
-product/priv-app/SCONE/SCONE.apk
-product/priv-app/GCS/GCS.apk
-
 # Camera extensions
 product/app/PixelCameraServicesCoral/PixelCameraServicesCoral.apk;PRESIGNED
 
@@ -50,20 +46,10 @@ product/framework/uimremoteserverlibrary.jar
 product/framework/uimservicelibrary.jar
 
 # Radio
-product/etc/permissions/com.android.sdm.plugins.connmo.xml
-product/etc/permissions/com.android.sdm.plugins.dcmo.xml
-product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
-product/priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
-product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
-product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
-product/priv-app/ConnMO/ConnMO.apk
-product/priv-app/DCMO/DCMO.apk
 product/priv-app/DMService/DMService.apk
-product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
 # Sprint
 product/etc/permissions/com.android.sdm.plugins.sprintdm.xml
@@ -132,7 +118,6 @@ system_ext/etc/permissions/com.google.euiccpixel.xml
 system_ext/etc/permissions/google-ril.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
-system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 system_ext/priv-app/EuiccGoogle/esim-a1.img
 system_ext/priv-app/EuiccGoogle/esim-a2.img
 system_ext/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk;PRESIGNED
