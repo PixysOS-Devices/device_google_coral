@@ -1066,6 +1066,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 BOARD_USES_QCNE := true
 
+# Write flags to the vendor space in /misc partition.
+PRODUCT_PACKAGES += \
+    misc_writer
+
 #per device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/coral/init.coral.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.coral.rc \
